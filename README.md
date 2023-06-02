@@ -15,6 +15,7 @@ This is a REST API for a Pizza delivery service built for fun and learning with 
 | *POST* | ```/orders/create/``` | _Create order_|_All users_|
 | *GET* | ```/orders/{order_id}``` | _Order id _|_All users_|
 | *GET* | ```/user/porfile``` | _User Profile_|_User Profile_|
+| *GET* | ```/docs/``` | _View API documentation_|_All users_|
 
 ## How to run the Project
 - Install Postgreql
