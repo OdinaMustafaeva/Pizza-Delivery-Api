@@ -8,15 +8,13 @@ This is a REST API for a Pizza delivery service built for fun and learning with 
 | ------- | ----- | ------------- | ------------- |
 | *POST* | ```/auth/signup/``` | _Register new user_| _All users_|
 | *POST* | ```/auth/login/``` | _Login user_|_All users_|
-| *POST* | ```/orders/order/``` | _Place an order_|_All users_|
-| *PUT* | ```/orders/order/update/{order_id}/``` | _Update an order_|_All users_|
-| *PUT* | ```/orders/order/status/{order_id}/``` | _Update order status_|_Superuser_|
-| *DELETE* | ```/orders/order/delete/{order_id}/``` | _Delete/Remove an order_ |_All users_|
-| *GET* | ```/orders/user/orders/``` | _Get user's orders_|_All users_|
-| *GET* | ```/orders/orders/``` | _List all orders made_|_Superuser_|
-| *GET* | ```/orders/orders/{order_id}/``` | _Retrieve an order_|_Superuser_|
-| *GET* | ```/orders/user/order/{order_id}/``` | _Get user's specific order_|
-| *GET* | ```/docs/``` | _View API documentation_|_All users_|
+| *POST* | ```/auth/refresh/``` | _refresh token_|_All users_|
+| *GET* | ```/orders/``` | _User order_|_All users_|
+| *PUT* | ```/order/{order_id}/update``` | _Update an order_|_All users_|
+| *DELETE* | ```/order/{order_id}/delete/``` | _Delete/Remove an order_ |_All users_|
+| *POST* | ```/orders/create/``` | _Create order_|_All users_|
+| *GET* | ```/orders/{order_id}``` | _Order id _|_All users_|
+| *GET* | ```/user/porfile``` | _User Profile_|_User Profile_|
 
 ## How to run the Project
 - Install Postgreql
